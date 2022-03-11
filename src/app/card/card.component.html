@@ -1,0 +1,17 @@
+<mat-card [class]="matcard">
+    <mat-card-header>
+        <mat-card-title>{{titulo}}</mat-card-title>
+        <mat-card-subtitle [class]="mcs">{{sifrao}}{{preco}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-divider></mat-divider>
+        <p>{{storage}}</p>
+        <mat-divider></mat-divider>
+        <p>{{allowed}}</p>
+        <mat-divider></mat-divider>
+        <p>{{gigas}}</p>
+        
+        <button mat-button class="botao" (click)="emitirEvento()">LEARN MORE</button>
+    </mat-card-content>
+</mat-card>

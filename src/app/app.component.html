@@ -1,0 +1,46 @@
+<header>
+  <h1>Our Princing</h1> 
+  <section>
+    Annually <mat-slide-toggle></mat-slide-toggle>Monthly
+  </section>
+</header>
+
+<div class="wrapper">
+
+  <app-card 
+    matcard="card"
+    mcs="value1"
+    (btnClickEvent)="openSnackBar()"
+    sifrao="$"
+    titulo = "Basic"
+    preco = "19,99"
+    storage = "500 GB Storage"
+    allowed = "2 Users Allowed"
+    gigas = "Send up to 3 GB"
+  ></app-card>
+  
+  <app-card 
+    matcard= "meio" 
+    mcs="value2"
+    (btnClickEvent)="openSnackBar()"
+    sifrao="$"
+    titulo = "Professional"
+    preco = "24.99"
+    storage = "1 TB Storage"
+    allowed = "5 Users Allowed"
+    gigas = "Send up to 10 GB"
+  ></app-card>
+
+  <app-card 
+    matcard="card"
+    mcs="value1"
+    (btnClickEvent)="openSnackBar()"
+    sifrao="$"
+    titulo = "Master"
+    preco = "39.99"
+    storage = "3 TB Storage"
+    allowed = "10 Users Allowed"
+    gigas = "Send up to 20 GB"
+  ></app-card>
+
+</div>

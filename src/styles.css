@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-image: radial-gradient(at right, purple, rgb(236, 196, 255));
+    
+}
